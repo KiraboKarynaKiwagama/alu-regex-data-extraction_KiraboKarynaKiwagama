@@ -63,7 +63,8 @@ a discrepancy in the webhook logs. I've asked them to investigate.
 - Transaction ID: #99424 | Status: PENDING | Amount: $78.50
 - Cardholder Reference: P. Mensah | Card Type: Visa Debit
 - Card String captured in payload: 4000-0566-5566-5556
-- Notification sent to: peter.mensah@accra-fintech.gh and billing-copy@financeops.co.ug
+- Notification sent to: peter.mensah@accra-fintech.gh and billing-copy@@financeops.co.ug
+janet.mwangi.hr@@@gmail.com
 --------------------------------------------------------------------------------
 
 [09:35:12] [CHAT] [Marketing_Lead_Sarah]: Hey everyone! Don't forget to push the social media 

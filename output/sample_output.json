@@ -14,7 +14,6 @@
             "payments-dev@flutterwave-partner.io",
             "m.nakamura@globaltech-payments.jp",
             "peter.mensah@accra-fintech.gh",
-            "billing-copy@financeops.co.ug",
             "campaigns@africadigitalmedia.co",
             "james.otieno.creative@gmail.com",
             "sponsors@techsummit-africa2026.org",
@@ -35,7 +34,9 @@
             "logs-archive@cloudbackup-rw.net",
             "helpdesk@alueducation.com"
         ],
-        "count": 33
+        "count": 32,
+        "flagged": [],
+        "flagged_count": 0
     },
     "alu_email": {
         "matches": [
@@ -47,7 +48,9 @@
             "sysadmin@alueducation.com",
             "helpdesk@alueducation.com"
         ],
-        "count": 7
+        "count": 7,
+        "flagged": [],
+        "flagged_count": 0
     },
     "credit_cards": {
         "matches": [
@@ -56,18 +59,23 @@
             "************5100",
             "************5556"
         ],
-        "count": 4
+        "count": 4,
+        "flagged": [],
+        "flagged_count": 0
     },
     "url_pattern": {
         "matches": [
             "http://api-gateway.internal-network.local/v2",
             "https://api.alueducation.com/v2/auth?",
             "https://sandbox-login.workspace.net/login.php",
-            "http://malicious-site.com/steal?cookie='+document.cookie",
             "https://hr-portal.alueducation.com/dashboard/standup.",
             "https://secure-upload.brightpay-africa.com/forms"
         ],
-        "count": 6
+        "count": 5,
+        "flagged": [
+            "http://malicious-site.com/steal?cookie='+document.cookie"
+        ],
+        "flagged_count": 1
     },
     "hashtag_pattern": {
         "matches": [
@@ -82,6 +90,8 @@
             "#InnovateAfrica",
             "#8821"
         ],
-        "count": 10
+        "count": 10,
+        "flagged": [],
+        "flagged_count": 0
     }
 }
