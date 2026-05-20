@@ -2,9 +2,8 @@
 
 ## What This Project Does
 This program scans a raw server log text file and automatically extracts 
-specific types of structured data using regex (regular expression) patterns. 
-It also detects and flags malicious or malformed input before saving clean 
-results to a JSON output file.
+specific types of structured data using regex (regular expression) patterns, saving the clean results to a JSON output file. 
+
 
 ---
 
@@ -54,25 +53,11 @@ external email and stored separately.
 
 ---
 
-## Security Considerations
-
-The program does not automatically trust the input file. Every match is 
-checked against a list of known hostile patterns before being saved.
-
-### What Gets Flagged and Rejected
-| Threat | Example | Why It's Dangerous |
-|---|---|---|
-| XSS injection | `<script>document.cookie</script>` | Steals user session data |
-| SQL injection | `'; DROP TABLE users;--` | Destroys database records |
-| JavaScript URLs | `javascript:void(0)` | Executes code in the browser |
-| iframe injection | `<iframe src="http://evil.com">` | Loads malicious pages |
-| Malformed emails | `user@@domain.com` | Sign of spoofing attempt |
-
 ### How Sensitive Data is Handled
 - Credit card numbers are **never saved in full**
 - All digits except the last 4 are replaced with `*` before writing to output
 - Example: `4111-2222-3333-4464` becomes `************4464`
-- Flagged matches are recorded separately so they can be reviewed
+
 
 ---
 
