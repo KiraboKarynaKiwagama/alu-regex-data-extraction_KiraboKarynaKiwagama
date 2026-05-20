@@ -1,0 +1,87 @@
+{
+    "email": {
+        "matches": [
+            "tech-support@si.alueducation.com",
+            "david.okonkwo@techbridge-solutions.com",
+            "infra-alerts@awspartner-hosting.net",
+            "blessing.qa.review@testingpros.io",
+            "security-clearance@techbridge-solutions.com",
+            "registrar-office@alumni.alueducation.com",
+            "phishing-reports@infosec.alueducation.net",
+            "incident-response@cybershield-africa.org",
+            "grace.auditor@deloitte-eastafrica.com",
+            "audit.requests@deloitte.com",
+            "payments-dev@flutterwave-partner.io",
+            "m.nakamura@globaltech-payments.jp",
+            "peter.mensah@accra-fintech.gh",
+            "billing-copy@financeops.co.ug",
+            "campaigns@africadigitalmedia.co",
+            "james.otieno.creative@gmail.com",
+            "sponsors@techsummit-africa2026.org",
+            "partnerships@microsofsafrica.net",
+            "phishing-reports@infosec.alueducation.net",
+            "primary.student_99@alueducation.com",
+            "security-ops@si.alueducation.com",
+            "data-breach-alerts@africacompliance.org",
+            "support@auth0-enterprise.com",
+            "helpdesk@okta-business.net",
+            "claims@jubileeinsurance-africa.com",
+            "janet.mwangi.hr@gmail.com",
+            "payroll@brightpay-africa.com",
+            "accounts@alueducation.com",
+            "blessing.newdev@protonmail.com",
+            "b.contractor22@outlook.com",
+            "sysadmin@alueducation.com",
+            "logs-archive@cloudbackup-rw.net",
+            "helpdesk@alueducation.com"
+        ],
+        "count": 33
+    },
+    "alu_email": {
+        "matches": [
+            "tech-support@si.alueducation.com",
+            "registrar-office@alumni.alueducation.com",
+            "primary.student_99@alueducation.com",
+            "security-ops@si.alueducation.com",
+            "accounts@alueducation.com",
+            "sysadmin@alueducation.com",
+            "helpdesk@alueducation.com"
+        ],
+        "count": 7
+    },
+    "credit_cards": {
+        "matches": [
+            "************4464",
+            "************2222",
+            "************5100",
+            "************5556"
+        ],
+        "count": 4
+    },
+    "url_pattern": {
+        "matches": [
+            "http://api-gateway.internal-network.local/v2",
+            "https://api.alueducation.com/v2/auth?",
+            "https://sandbox-login.workspace.net/login.php",
+            "http://malicious-site.com/steal?cookie='+document.cookie",
+            "https://hr-portal.alueducation.com/dashboard/standup.",
+            "https://secure-upload.brightpay-africa.com/forms"
+        ],
+        "count": 6
+    },
+    "hashtag_pattern": {
+        "matches": [
+            "#8821",
+            "#99421",
+            "#99422",
+            "#99423",
+            "#99424",
+            "#ALUInnovate2026",
+            "#PanAfricanTech",
+            "#TechSummit2026",
+            "#InnovateAfrica",
+            "#8821"
+        ],
+        "count": 10
+    }
+}
